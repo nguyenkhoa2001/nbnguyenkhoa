@@ -1,0 +1,29 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+  border: 2px solid tomato;
+  padding: 30px; /* Khoảng trống trên dưới giữa paragraph và border */
+  margin: 50px; /* căn lề của border */
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+}
